@@ -31,7 +31,7 @@ def data(dia, mes, ano):
 ################# ENEM ###########################
 dataEnemDia1 = data(21,11,2021)
 if dataEnemDia1.days >= 1:
-  enem1 = "\n\n⭕️ Enem linguagens e Humanas (Dia 21/11). Faltam: x dias!"
+  enem1 = "\n\nEnem linguagens e Humanas (Dia 21/11). Faltam: x dias!"
   enem1 = enem1.replace('x', str(dataEnemDia1.days))
 elif dataEnemDia1.days == 0: 
   enem1 = "\n\nEnem primeiro dia é hoje, boa sorte"
